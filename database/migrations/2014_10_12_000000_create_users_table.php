@@ -21,8 +21,7 @@ return new class extends Migration
             $table->string('password');
             $table->rememberToken();
             $table->foreignId('current_team_id')->nullable();
-            $table->text('profile_photo_path')->nullable();
-            $table->string('utype')->default('USR')->comment('ADM for Admin toko and USR for Customer');
+            $table->string('profile_photo_path', 2048)->nullable();
             $table->timestamps();
         });
     }
