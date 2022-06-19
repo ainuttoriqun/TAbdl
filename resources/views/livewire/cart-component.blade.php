@@ -21,7 +21,7 @@
                     <div class="product-name">
                         <a class="link-to-product" href="#">Radiant-360 R6 Wireless Omnidirectional Speaker [White]</a>
                     </div>
-                    <div class="price-field produtc-price"><p class="price">$256.00</p></div>
+                    <div class="price-field produtc-price"><p class="price">Rp 0</p></div>
                     <div class="quantity">
                         <div class="quantity-input">
                             <input type="text" name="product-quatity" value="1" data-max="120" pattern="[0-9]*" >									
@@ -29,7 +29,7 @@
                             <a class="btn btn-reduce" href="#"></a>
                         </div>
                     </div>
-                    <div class="price-field sub-total"><p class="price">$256.00</p></div>
+                    <div class="price-field sub-total"><p class="price">Rp 0</p></div>
                     <div class="delete">
                         <a href="#" class="btn btn-delete" title="">
                             <span>Delete from your cart</span>
@@ -44,7 +44,7 @@
                     <div class="product-name">
                         <a class="link-to-product" href="#">Radiant-360 R6 Wireless Omnidirectional Speaker [White]</a>
                     </div>
-                    <div class="price-field produtc-price"><p class="price">$256.00</p></div>
+                    <div class="price-field produtc-price"><p class="price">Rp 0</p></div>
                     <div class="quantity">
                         <div class="quantity-input">
                             <input type="text" name="product-quatity" value="1" data-max="120" pattern="[0-9]*">									
@@ -52,7 +52,7 @@
                             <a class="btn btn-reduce" href="#"></a>
                         </div>
                     </div>
-                    <div class="price-field sub-total"><p class="price">$256.00</p></div>
+                    <div class="price-field sub-total"><p class="price">Rp 0</p></div>
                     <div class="delete">
                         <a href="#" class="btn btn-delete" title="">
                             <span>Delete from your cart</span>
@@ -66,9 +66,9 @@
         <div class="summary">
             <div class="order-summary">
                 <h4 class="title-box">Order Summary</h4>
-                <p class="summary-info"><span class="title">Subtotal</span><b class="index">$512.00</b></p>
+                <p class="summary-info"><span class="title">Subtotal</span><b class="index">Rp 0</b></p>
                 <p class="summary-info"><span class="title">Shipping</span><b class="index">Free Shipping</b></p>
-                <p class="summary-info total-info "><span class="title">Total</span><b class="index">$512.00</b></p>
+                <p class="summary-info total-info "><span class="title">Total</span><b class="index">Rp 0</b></p>
             </div>
             <div class="checkout-info">
                 <label class="checkbox-field">
@@ -102,7 +102,7 @@
                         </div>
                         <div class="product-info">
                             <a href="#" class="product-name"><span>Radiant-360 R6 Wireless Omnidirectional Speaker [White]</span></a>
-                            <div class="wrap-price"><span class="product-price">$250.00</span></div>
+                            <div class="wrap-price"><span class="product-price">Rp 0</span></div>
                         </div>
                     </div>
 
@@ -120,7 +120,7 @@
                         </div>
                         <div class="product-info">
                             <a href="#" class="product-name"><span>Radiant-360 R6 Wireless Omnidirectional Speaker [White]</span></a>
-                            <div class="wrap-price"><ins><p class="product-price">$168.00</p></ins> <del><p class="product-price">$250.00</p></del></div>
+                            <div class="wrap-price"><ins><p class="product-price">Rp 0</p></ins> <del><p class="product-price">Rp 0</p></del></div>
                         </div>
                     </div>
 
@@ -139,7 +139,7 @@
                         </div>
                         <div class="product-info">
                             <a href="#" class="product-name"><span>Radiant-360 R6 Wireless Omnidirectional Speaker [White]</span></a>
-                            <div class="wrap-price"><ins><p class="product-price">$168.00</p></ins> <del><p class="product-price">$250.00</p></del></div>
+                            <div class="wrap-price"><ins><p class="product-price">Rp 0</p></ins> <del><p class="product-price">Rp 0</p></del></div>
                         </div>
                     </div>
 
@@ -157,7 +157,7 @@
                         </div>
                         <div class="product-info">
                             <a href="#" class="product-name"><span>Radiant-360 R6 Wireless Omnidirectional Speaker [White]</span></a>
-                            <div class="wrap-price"><span class="product-price">$250.00</span></div>
+                            <div class="wrap-price"><span class="product-price">Rp 0</span></div>
                         </div>
                     </div>
 
@@ -172,7 +172,7 @@
                         </div>
                         <div class="product-info">
                             <a href="#" class="product-name"><span>Radiant-360 R6 Wireless Omnidirectional Speaker [White]</span></a>
-                            <div class="wrap-price"><span class="product-price">$250.00</span></div>
+                            <div class="wrap-price"><span class="product-price">Rp 0</span></div>
                         </div>
                     </div>
 
@@ -190,7 +190,7 @@
                         </div>
                         <div class="product-info">
                             <a href="#" class="product-name"><span>Radiant-360 R6 Wireless Omnidirectional Speaker [White]</span></a>
-                            <div class="wrap-price"><ins><p class="product-price">$168.00</p></ins> <del><p class="product-price">$250.00</p></del></div>
+                            <div class="wrap-price"><ins><p class="product-price">Rp 0</p></ins> <del><p class="product-price">$250.00</p></del></div>
                         </div>
                     </div>
 
@@ -208,7 +208,7 @@
                         </div>
                         <div class="product-info">
                             <a href="#" class="product-name"><span>Radiant-360 R6 Wireless Omnidirectional Speaker [White]</span></a>
-                            <div class="wrap-price"><span class="product-price">$250.00</span></div>
+                            <div class="wrap-price"><span class="product-price">Rp 0</span></div>
                         </div>
                     </div>
 
@@ -226,7 +226,7 @@
                         </div>
                         <div class="product-info">
                             <a href="#" class="product-name"><span>Radiant-360 R6 Wireless Omnidirectional Speaker [White]</span></a>
-                            <div class="wrap-price"><span class="product-price">$250.00</span></div>
+                            <div class="wrap-price"><span class="product-price">Rp 0</span></div>
                         </div>
                     </div>
                 </div>
