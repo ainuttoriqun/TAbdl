@@ -71,7 +71,7 @@
 										@if(Auth::user()->utype ==="ADM")
 											<li class="menu-item menu-item-has-children parent" >
 												<a title="My Account" href="#">My Account ({Auth::user()->name})<i class="fa fa-angle-down" aria-hidden="true"></i></a>
-												<ul class="submenu curency" >
+												<ul class="submenu " >
 													<li class="menu-item" >
 														<a title="Dashboard" href="#">Dashboard</a>
 												</ul>
@@ -79,7 +79,7 @@
 										@else
 											<li class="menu-item menu-item-has-children parent" >
 												<a title="My Account" href="#">My Account ({Auth::user()->name})<i class="fa fa-angle-down" aria-hidden="true"></i></a>
-												<ul class="submenu curency" >
+												<ul class="submenu " >
 													<li class="menu-item" >
 														<a title="Dashboard" href="#">Dashboard</a>
 												</ul>
