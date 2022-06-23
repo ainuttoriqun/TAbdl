@@ -1,12 +1,15 @@
 <?php
 
+use App\Http\Livewire\Admin\AdminDashboardComponent;
 use App\Http\Livewire\CartComponent;
 use App\Http\Livewire\CheckoutComponent;
 use App\Http\Livewire\HomeCOmponent;
 use App\Http\Livewire\ShopComponent;
+use App\Http\Livewire\User\UserDashboardComponent;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
+use Illuminate\Support\Facades\Auth;
 
 /*
 |--------------------------------------------------------------------------
@@ -50,10 +53,10 @@ Route :: get('/cart', CartComponent::class);
 // })->name('dashboard');
 // for user (customer)
 Route :: middleware(['auth:sanctum','verified'])->group(function() {
-    
+    Route :: get('/user/dashboard', UserDashboardComponent::class)->name('user.dashboard');
 });
 
 //for Admin
-Route :: middleware(['auth:sanctum','verified'])->group(function() {
-    
+Route :: middleware(['auth:sanctum','verified','authadmin'])->group(function() {
+    Route :: get('/admin/dashboard',AdminDashboardComponent::class)->name('admin.dashboard');
 });
