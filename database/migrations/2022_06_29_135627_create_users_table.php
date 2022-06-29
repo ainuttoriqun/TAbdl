@@ -1,8 +1,10 @@
 <?php
 
+use Egulias\EmailValidator\Parser\Comment;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\Auth;
 
 return new class extends Migration
 {
@@ -22,6 +24,7 @@ return new class extends Migration
             $table->rememberToken();
             $table->foreignId('current_team_id')->nullable();
             $table->string('profile_photo_path', 2048)->nullable();
+            $table->string('utype')->default('USR')->comment('ADM for admin and USR for user or customer');
             $table->timestamps();
         });
     }

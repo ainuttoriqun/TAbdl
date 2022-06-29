@@ -40,23 +40,24 @@ use Illuminate\Support\Facades\Auth;
 //         return Inertia::render('Dashboard');
 //     })->name('dashboard');
 // });
-Route :: get('/', HomeCOmponent::class);
+Route::get('/', HomeCOmponent::class);
 
-Route :: get('/shop', ShopComponent::class);
+Route:: get('/shop', ShopComponent::class);
 
-Route :: get('/checkout', CheckoutComponent::class);
+Route::get('/checkout', CheckoutComponent::class);
 
-Route :: get('/cart', CartComponent::class);
+Route::get('/cart', CartComponent::class);
 
 // Route :: middleware(['auth:sanctum','verified'])-> get('/dashboard', function(){
 //     return view('dashboard');
 // })->name('dashboard');
+
 // for user (customer)
-Route :: middleware(['auth:sanctum','verified'])->group(function() {
+Route::middleware(['auth:sanctum','verified'])->group(function() {
     Route :: get('/user/dashboard', UserDashboardComponent::class)->name('user.dashboard');
 });
 
 //for Admin
-Route :: middleware(['auth:sanctum','verified','authadmin'])->group(function() {
+Route::middleware(['auth:sanctum','verified','authadmin'])->group(function() {
     Route :: get('/admin/dashboard',AdminDashboardComponent::class)->name('admin.dashboard');
 });
